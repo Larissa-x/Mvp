@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:indeterminateBehavior="repeat"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateDrawable="@drawable/anim_loding_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_marginTop="@dimen/dp_12"
+            android:text="加载中..."
+            android:textSize="@dimen/sp_12"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>
